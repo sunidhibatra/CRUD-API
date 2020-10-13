@@ -26,8 +26,11 @@ You can verify the installation by typing the following command in CMD
 
 ## To access API on localhost
 To see your API running go to the **Browser** and hit *127.0.0.1:5000/*
-<img src = "/images/successful.png">
-![fig 1.2](images/successful_1.png)
+
+
+![successful](https://user-images.githubusercontent.com/34681138/95892700-87dae780-0da4-11eb-834c-8b17cfb1e6d7.PNG)
+
+![successful_1](https://user-images.githubusercontent.com/34681138/95892864-c670a200-0da4-11eb-9d6f-034dd0114040.PNG)
 
 For acessing the API you can download [POSTMAN](https://www.postman.com/downloads/)
 To access API:
@@ -44,7 +47,7 @@ To use the API's open the *POSTMAN* application.
     3. Go to the *Body* option and enter the keys and the corresponding values which needs to be inserted in the database.
     4. Hit the SEND button.
     5. You should get a response saying *INSERTION SUCCESSFUL*.
-    ![fig 2](./images/insert.png)
+    ![insert](https://user-images.githubusercontent.com/34681138/95892991-f91a9a80-0da4-11eb-86f8-f3be0546221c.PNG)
 
 2. **Find:** 
     1. Enter the URL (127.0.0.1/find/)
@@ -52,14 +55,15 @@ To use the API's open the *POSTMAN* application.
     3. Go to *Body* option and enter the keys and the corresponding values on which you want to filter the data.
     4. Hit the SEND button.
     5. You should retrieve the filtered data from the database in json format
-    ![fig 3](images/find.png)
+    ![find](https://user-images.githubusercontent.com/34681138/95892999-fd46b800-0da4-11eb-95d2-eed118fe4d92.PNG)
+
 3. **Update:**
     1. Enter the URL (127.0.0.1/update/)
     2. Select POST method.
     3. Go to *Body* option and enter the key -> *_id* and value -> *_id[value]* on which you want to update the value. Also enter the values for rest of the columns which you need to update.
     4. Hit the SEND button.
     5. You should get a response saying *UPDATE SUCCESSFUL*.
-    ![fig 4](images/update.png)
+    ![update](https://user-images.githubusercontent.com/34681138/95893017-020b6c00-0da5-11eb-8294-fe330c412d2c.PNG)
 
 4. **Delete:**
     1. Enter the URL (127.0.0.1/delete/)
@@ -67,4 +71,4 @@ To use the API's open the *POSTMAN* application.
     3. Go to *Body* option and enter the keys and value for which you want to perform delete operation.
     4. Hit the SEND button.
     5. You should get a response saying *DELETION SUCCESSFUL*.
-    ![fig 5](images/delete.png)
+    ![delete](https://user-images.githubusercontent.com/34681138/95893005-ff107b80-0da4-11eb-931c-60658c8a1f03.PNG)
