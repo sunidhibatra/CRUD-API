@@ -44,7 +44,7 @@ To use the API's open the *POSTMAN* application.
     3. Go to the *Body* option and enter the keys and the corresponding values which needs to be inserted in the database.
     4. Hit the SEND button.
     5. You should get a response saying *INSERTION SUCCESSFUL*.
-    ![fig 2](images/insert.png)
+    ![fig 2](./images/insert.png)
 
 2. **Find:** 
     1. Enter the URL (127.0.0.1/find/)
