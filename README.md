@@ -26,7 +26,7 @@ You can verify the installation by typing the following command in CMD
 
 ## To access API on localhost
 To see your API running go to the **Browser** and hit *127.0.0.1:5000/*
-<img src = "images/successful.png">
+<img src = "/images/successful.png">
 ![fig 1.2](images/successful_1.png)
 
 For acessing the API you can download [POSTMAN](https://www.postman.com/downloads/)
