@@ -1,5 +1,5 @@
 # Description
-A REST API using Python which allows the user to perform basinc CRUD (Create, Read, Update, Delete) operations on the Ecommerce-products Data. 
+A REST API using Python which allows the user to perform basic CRUD (Create, Read, Update, Delete) operations on the Ecommerce-products Data. 
 Ecommerce-products Database -
 * _id (automatically assigned ObjectId)
 * name
